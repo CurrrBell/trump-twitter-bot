@@ -1,0 +1,15 @@
+{
+  "name": "trump-twitter-bot",
+  "version": "0.0.0",
+  "description": "memes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Bell",
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
