@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Bell",
   "license": "ISC",
   "dependencies": {
-    "twitter": "^1.7.1"
+    "@types/twitter": "^1.7.0",
+    "twitter": "^1.7.1",
+    "typescript": "^4.0.2"
   }
 }
