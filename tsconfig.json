@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
       "preserveConstEnums": true,
-      "outDir": "dist"
+      "outDir": "dist", 
+      "esModuleInterop": true
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "**/*.spec.ts"]
